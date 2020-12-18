@@ -1,6 +1,8 @@
 
 noinst_LTLIBRARIES = libmodsec_parser.la
 
+AM_YFLAGS = -d -Wno-yacc
+
 BUILT_SOURCES = \
 	seclang-parser.cc \
 	test.cc
